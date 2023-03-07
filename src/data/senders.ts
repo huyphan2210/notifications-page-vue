@@ -16,7 +16,8 @@ const senders: Sender[] = [{
         avatarURL: 'src/assets/images/avatar-jacob-thompson.webp',
         action: 'has joined your group',
         objectName: 'Chest Club',
-        time: '1 day ago'
+        time: '1 day ago',
+        objectColor: 'hsl(219, 85%, 26%)'
     }, {
         senderName: 'Rizky Hasanuddin',
         avatarURL: 'src/assets/images/avatar-rizky-hasanuddin.webp',
@@ -29,7 +30,8 @@ const senders: Sender[] = [{
         avatarURL: 'src/assets/images/avatar-kimberly-smith.webp',
         action: 'commented on your picture',
         time: '1 week ago',
-        isRead: true
+        isRead: true,
+        objectImgURL: 'src/assets/images/image-chess.webp'
     }, {
         senderName: 'Nathan Peterson',
         avatarURL: 'src/assets/images/avatar-nathan-peterson.webp',
@@ -43,7 +45,8 @@ const senders: Sender[] = [{
         action: 'left the group',
         objectName: 'Chess Club',
         time: '2 weeks ago',
-        isRead: true
+        isRead: true,
+        objectColor: 'hsl(219, 85%, 26%)'
     }
 ]
 
