@@ -31,7 +31,7 @@ const senders: Sender[] = [{
         action: 'commented on your picture',
         time: '1 week ago',
         isRead: true,
-        objectImgURL: 'src/assets/images/image-chess.webp'
+        objectImgURL: '/src/assets/images/image-chess.webp'
     }, {
         senderName: 'Nathan Peterson',
         avatarURL: 'src/assets/images/avatar-nathan-peterson.webp',

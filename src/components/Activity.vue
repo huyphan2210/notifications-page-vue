@@ -22,7 +22,7 @@ const props = defineProps({
                 <div v-if="sender.message" class="message">{{ sender.message }}</div>
             </div>
         </div>
-        <img loading="lazy" v-if="sender.objectImgURL" class="objectImg" src="../assets/images/image-chess.webp" alt="Your Object">
+        <img loading="lazy" v-if="sender.objectImgURL" class="objectImg" :src="sender.objectImgURL" alt="Your Object">
     </div>
 </template>
 
