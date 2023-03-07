@@ -3,13 +3,9 @@
   src: url(./assets/PlusJakartaSans-VariableFont_wght.ttf);
 }
 
-:root {
-  --neutral-lightGrayishBlue1: hsl(211, 68%, 94%);
-}
-
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: var(--neutral-lightGrayishBlue1);
+  background-color: hsl(210, 60%, 98%);
   min-height: 100vh;
   margin: 0 auto;
   display: grid;
@@ -18,9 +14,18 @@ body {
   main {
     width: 90%;
     max-width: 768px;
+    margin-block: 4rem;
   }
 
   footer {
     position: fixed;
     bottom: 1vh;
+    font-size: 0.75rem;
   }
+
+@media screen and (max-aspect-ratio: 1) {
+  main {
+    width: 100%;
+    margin-block: 0;
+  }
+}
